@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('assets/open-sans-font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url('assets/raleway-font/Raleway-Regular.ttf');
+}

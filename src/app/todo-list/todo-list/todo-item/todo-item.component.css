@@ -1,0 +1,80 @@
+.card {
+  border-radius: 8px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 3px 3px #fafafa;
+
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+  display: flex;
+
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.card-edit-mode{
+  border-radius: 8px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 3px 3px #fafafa;
+
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+  display: flex;
+
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 14px;
+  z-index: 1;
+  position: relative;
+}
+
+.card-title {
+  margin: 0 auto 4px;
+  width: 100%;
+}
+
+.edit-button {
+  cursor: pointer;
+  color: #555761;
+}
+.edit-button:hover{
+  color: black;
+}
+
+.delete-button{
+  cursor: pointer;
+  color: #c6262e;
+  margin-left: 8px;
+}
+.delete-button:hover{
+  color: #7a0000;
+}
+
+.create-modal-input{
+  width: 100%;
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.submit-button {
+  cursor: pointer;
+  color: #555761;
+}
+.submit-button:hover{
+  color: black;
+}
+
+.modal-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  opacity: 0.7;
+}

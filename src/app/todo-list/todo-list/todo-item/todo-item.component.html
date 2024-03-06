@@ -1,0 +1,19 @@
+<div class="card" *ngIf="!editMode">
+  <span class="card-title">{{ item.title }}</span>
+  <div class="edit-button" (click)="openEditMode()">edit</div>
+  <div class="delete-button" (click)="deleteItem(item.id)">delete</div>
+</div>
+
+<div class="modal-background" *ngIf="editMode"></div>
+<div class="card-edit-mode" *ngIf="editMode">
+  <input #newTitleInput
+         class="create-modal-input"
+         type="text"
+         placeholder="Что планируете сделать?"
+         [formControl]="newTitle">
+  <div class="submit-button"
+       [hidden]="newTitle.value == ''"
+       (click)="save()">
+    submit
+  </div>
+</div>

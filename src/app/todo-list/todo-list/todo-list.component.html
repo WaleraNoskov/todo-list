@@ -1,0 +1,13 @@
+<div class="todo-list">
+  <div class="todo-list-header">
+    <h1 class="todo-list-title">
+      To Do
+    </h1>
+    <div class="add-item-button" (click)="createItem()">add</div>
+  </div>
+
+  <div class="todo-list-body">
+    <app-todo-item *ngFor="let item of items" [item]="item">
+    </app-todo-item>
+  </div>
+</div>

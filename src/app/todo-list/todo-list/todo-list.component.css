@@ -1,0 +1,34 @@
+.todo-list {
+  width: 45rem;
+}
+
+.todo-list-header {
+  display: flex;
+  align-items: center;
+}
+
+.todo-list-title {
+  font-family: Raleway;
+  width: 100%;
+}
+
+.todo-list-body {
+  display: block;
+}
+
+.add-item-button {
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid #555761;
+  font-size: 14px;
+  font-family: "Open Sans";
+  height: fit-content;
+  color: #555761;
+}
+
+.add-item-button:hover{
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px lightgray;
+}
